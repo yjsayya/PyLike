@@ -722,7 +722,7 @@ public class Pl {
         }
     }
 
-    public static <T> T indexing(List<T> pyList, int index_) {
+    public static <T> T idx(List<T> pyList, int index_) {
         int length = pyList.size();
         int index = (index_ < 0) ? length + index_ : index_;
         if (pyList.size() < index)
@@ -731,7 +731,7 @@ public class Pl {
         return pyList.get(index);
     }
 
-    public static <T> List<T> indexing(List<T> pyList, int index1_, int index2_) {
+    public static <T> List<T> slc(List<T> pyList, int index1_, int index2_) {
         int length = pyList.size();
         int index1 = (index1_ < 0) ? length + index1_ : index1_;
         int index2 = (index2_ < 0) ? length + index2_ : index2_;
@@ -1298,7 +1298,7 @@ public class Pl {
         return sb.toString();
     }
 
-    public static String indexing(String pyStr, int index_) {
+    public static String idx(String pyStr, int index_) {
         int length = pyStr.length();
         int index = (index_ < 0) ? length + index_ : index_;
 
@@ -1308,7 +1308,7 @@ public class Pl {
         return String.valueOf(pyStr.charAt(index));
     }
 
-    public static String slicing(String pyStr, int index_) {
+    public static String slc(String pyStr, int index_) {
         int length = pyStr.length();
         int index = (index_ < 0) ? length + index_ : index_;
 
@@ -1322,7 +1322,7 @@ public class Pl {
         return sb.toString();
     }
 
-    public static String slicing(String pyStr, int index1_, int index2_) {
+    public static String slc(String pyStr, int index1_, int index2_) {
         int length = pyStr.length();
         int index1 = (index1_ < 0) ? length + index1_ : index1_;
         int index2 = (index2_ < 0) ? length + index2_ : Math.min(index2_, length);
@@ -1339,7 +1339,7 @@ public class Pl {
     }
 
 
-    public static String slicing(String pyStr, int index1_, int index2_, int sliceStep) {
+    public static String slc(String pyStr, int index1_, int index2_, int sliceStep) {
         if (sliceStep == 0)
             throw new IllegalArgumentException("ValueError: slice step cannot be zero");
 

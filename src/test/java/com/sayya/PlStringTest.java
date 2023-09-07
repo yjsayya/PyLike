@@ -131,9 +131,9 @@ public class PlStringTest {
         // given
         String str = "012345";
         // when
-        String check1 = Pl.indexing(str,-1);
-        String check2 = Pl.indexing(str,-3);
-        String check3 = Pl.indexing(str,2);
+        String check1 = Pl.idx(str,-1);
+        String check2 = Pl.idx(str,-3);
+        String check3 = Pl.idx(str,2);
         // then
         assertThat(check1).isEqualTo("5");
         assertThat(check2).isEqualTo("3");
@@ -146,9 +146,9 @@ public class PlStringTest {
         // given
         String str = "0123456789";
         // when
-        String check1 = Pl.slicing(str,1,3);
-        String check2 = Pl.slicing(str,2,8);
-        String check3 = Pl.slicing(str,3,9);
+        String check1 = Pl.slc(str,1,3);
+        String check2 = Pl.slc(str,2,8);
+        String check3 = Pl.slc(str,3,9);
         // then
         assertThat(check1).isEqualTo("12");
         assertThat(check2).isEqualTo("234567");
@@ -161,9 +161,9 @@ public class PlStringTest {
         // given
         String str = "0123456789";
         // when
-        String check1 = Pl.slicing(str,1,8,2);
-        String check2 = Pl.slicing(str,9,3,-2);
-        String check3 = Pl.slicing(str,9,3,-1);
+        String check1 = Pl.slc(str,1,8,2);
+        String check2 = Pl.slc(str,9,3,-2);
+        String check3 = Pl.slc(str,9,3,-1);
         // then
         assertThat(check1).isEqualTo("1357");
         assertThat(check2).isEqualTo("975");
