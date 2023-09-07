@@ -132,24 +132,24 @@ public class PlListTest {
         assertThat(li).isEqualTo(List.of(true,true,false,false));
     }
 
-    @DisplayName("Pl: indexing() 테스트(1)")
+    @DisplayName("Pl: indexing() 테스트")
     @Test
-    public void indexingTest1() {
+    public void indexingTest() {
         // given
         List<Integer> li = Pl.list(0,1,2,3,4,5);
         // when
-        int number = Pl.indexing(li, 3);
+        int number = Pl.idx(li, 3);
         // then
         assertThat(number).isEqualTo(3);
     }
 
-    @DisplayName("Pl: indexing() 테스트(2)")
+    @DisplayName("Pl: slc() 테스트")
     @Test
-    public void indexingTest2() {
+    public void slicingTest() {
         // given
         List<Integer> li = Pl.list(0,1,2,3,4,5);
         // when
-        List<Integer> check = Pl.indexing(li, 2,4);
+        List<Integer> check = Pl.slc(li, 2,4);
         // then
         assertThat(check).isEqualTo(List.of(2,3));
     }
