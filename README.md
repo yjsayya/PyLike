@@ -59,4 +59,4 @@ dependencies {
 
 #### 4. 사용법 및 예시
 
-- 자세한 활용법은 https://www.notion.so/PyLike-7cb9c7b338fc41e7a1f20794b77c953a?pvs=4 에서 확인해주세요
+- 자세한 활용법은 https://pebble-noise-a5e.notion.site/PyLike-7cb9c7b338fc41e7a1f20794b77c953a?pvs=4 에서 확인해주세요
