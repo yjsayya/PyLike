@@ -3,6 +3,9 @@ package com.sayya;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import static org.assertj.core.api.Assertions.assertThat;
 
 @DisplayName("PyLike - 내장함수 테스트")
@@ -49,6 +52,21 @@ public class PlBuiltInsTest {
         int num = Pl.toInt(numStr);
         //then
         assertThat(num).isEqualTo(123);
+
+    }
+
+    @DisplayName("Pl: print() 테스트")
+    @Test
+    public void printTest() {
+        // given
+        List<Integer> li = new ArrayList<>();
+        int[] arr = new int[]{1, 2, 3, 4, 5};
+        li.add(1);
+        li.add(2);
+        li.add(3);
+        // when
+        Pl.print(li);
+        Pl.print(arr);
 
     }
 
