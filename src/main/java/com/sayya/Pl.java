@@ -1107,7 +1107,7 @@ public class Pl {
         if (!dict.containsKey(key))
             throw new IllegalArgumentException(String.format("KeyError: %s", key.toString()));
 
-        dict.put(key, value);
+        dict.replace(key, value);
     }
 
     public static <K, V> V setdefault(Map<K, V> dict, K key, V value) {
