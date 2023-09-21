@@ -852,10 +852,18 @@ public class Pl {
         return new HashSet<>(map.keySet());
     }
 
-    public static Set<String> set(String string) {
-        Set<String> set = new HashSet<>();
-        for (char ch : string.toCharArray()) {
-            set.add(String.valueOf(ch));
+    public static Set<Boolean> set(boolean[] arr) {
+        Set<Boolean> set = new HashSet<>();
+        for (boolean val : arr) {
+            set.add(val);
+        }
+        return set;
+    }
+
+    public static Set<Character> set(char[] arr) {
+        Set<Character> set = new HashSet<>();
+        for (char val : arr) {
+            set.add(val);
         }
         return set;
     }
@@ -864,14 +872,6 @@ public class Pl {
         Set<Integer> set = new HashSet<>();
         for (int i : arr) {
             set.add(i);
-        }
-        return set;
-    }
-
-    public static Set<Boolean> set(boolean[] arr) {
-        Set<Boolean> set = new HashSet<>();
-        for (boolean val : arr) {
-            set.add(val);
         }
         return set;
     }
@@ -900,13 +900,14 @@ public class Pl {
         return set;
     }
 
-    public static Set<Character> set(char[] arr) {
-        Set<Character> set = new HashSet<>();
-        for (char val : arr) {
-            set.add(val);
+    public static Set<String> StringToSet(String string) {
+        Set<String> set = new HashSet<>();
+        for (char ch : string.toCharArray()) {
+            set.add(String.valueOf(ch));
         }
         return set;
     }
+
 
     public static Set<String> set(String[] arr) {
         return new HashSet<>(Arrays.asList(arr));

@@ -94,7 +94,7 @@ public class PlSetTest {
         // given
         String str = "abcdef";
         // when
-        Set<String> set = Pl.set(str);
+        Set<String> set = Pl.StringToSet(str);
         // then
         assertThat(set).isEqualTo(Set.of("a","b","c","d","e","f"));
     }
