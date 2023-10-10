@@ -41,7 +41,25 @@ dependencies {
 
 #### 3. 사용법 및 예시
 
-- 자세한 활용법은 https://pebble-noise-a5e.notion.site/PyLike-7cb9c7b338fc41e7a1f20794b77c953a?pvs=4 에서 확인해주세요
+PyLike - 내장 함수
+- Pl.abs() - 절댓값
+- Pl.divmod() - 몫,나머지
+- Pl.input() - 입력
+- Pl.int() - int로 바꾸기
+- Pl.float() - float으로 바꾸기
+- Pl.len() - 길이 구하기
+- Pl.max() - 최댓값 구하기
+- Pl.min() - 최솟값 구하기
+- Pl.pow() - 제곱 값 구하기
+- Pl.range() - 반복 객체 가능한 list 만들기
+- Pl.print() - 출력
+- Pl.sorted() - 정렬
+- Pl.sum() - 총합 구하기
+- Pl.in() - 포함 관계 확인하기(1)
+- Pl.not_in() - 포함 관계 확인하기(2)
+
+<br/>
+자세한 활용법은 https://pebble-noise-a5e.notion.site/PyLike-7cb9c7b338fc41e7a1f20794b77c953a?pvs=4 에서 확인해주세요
 <br/>
 
 [예시1] 
