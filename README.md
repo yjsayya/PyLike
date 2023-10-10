@@ -61,6 +61,7 @@ PyLike - 내장 함수
 <br/>
 자세한 활용법은 https://pebble-noise-a5e.notion.site/PyLike-7cb9c7b338fc41e7a1f20794b77c953a?pvs=4 에서 확인해주세요
 <br/>
+<br/>
 
 [예시1] 
 
