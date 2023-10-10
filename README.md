@@ -1,6 +1,4 @@
-## PyLike 라이브러리
-
----
+## PyLike
 
 PyLike는 `Spring Boot에서 사용할 수 있는 오픈소스 라이브러리`입니다
 
