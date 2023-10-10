@@ -19,7 +19,7 @@ python의 장점을 Java에 이식하여 Java를 보다 간결하고 깔끔한 �
 - Python처럼 Java Collection Framework를 기본 자료형처럼 다룰 수 있습니다.
 - Python과 동일한 메서드명으로 Java의 Collection Framework를 사용할 수 있습니다.
 - Collection Framework의 상속 구조를 몰라도 됩니다.
-<br/>
+
 <br/>
 
 #### 2. 설정 방법
@@ -42,8 +42,8 @@ dependencies {
 #### 3. 사용법 및 예시
 
 - 자세한 활용법은 https://pebble-noise-a5e.notion.site/PyLike-7cb9c7b338fc41e7a1f20794b77c953a?pvs=4 에서 확인해주세요
-
 <br/>
+
 [예시1] 
 
 - python 코드
@@ -62,6 +62,7 @@ dependencies {
     }
     ```
 <br/>
+
 [예시2] (programmers) 크기가 작은 부분문자열
 
 - python 코드
@@ -94,6 +95,7 @@ dependencies {
     }
     ```
 <br/>
+
 [예시3] (Programmers) 과일 장수
 
 - python 코드
