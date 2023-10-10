@@ -12,7 +12,7 @@ PyLike는 `Spring Boot에서 사용할 수 있는 오픈소스 라이브러리`�
 
 > Java를 pythonic하게 !!
 
-그래서 python의 장점을 Java에 이식하여 Java를 보다 간결하고 깔끔한 코드를 작성할 수 있도록 PyLike를 제작하였습니다.
+python의 장점을 Java에 이식하여 Java를 보다 간결하고 깔끔한 코드를 작성할 수 있도록 PyLike를 제작하였습니다.
 
 - Java에서도 `pythonic`한 코드 작성이 가능합니다.
 - Python의 직관적이고 간결한 내장함수(Built-in Functions)를 Java에서도 사용 가능합니다.
