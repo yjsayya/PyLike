@@ -2,7 +2,7 @@
 
 PyLike는 `Spring Boot에서 사용할 수 있는 오픈소스 라이브러리`입니다
 
- - Java의 Collection Framework의 python에 비해 사용하기 불편합니다.
+ - Java의 Collection Framework은 python에 비해 사용하기 불편합니다.
  - 상속관계가 복잡하기 때문에 메서드의 소속 객체를 외워야 사용이 가능합니다.
  - Java에서도 python의 내장함수와 iterable 객체처럼 메서드명으로만 사용하고 싶었습니다.
 
